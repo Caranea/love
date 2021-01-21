@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Love Concierge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	<!-- Styles -->
+		<!-- <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" /> --> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+	<link rel="stylesheet" type="text/css" href="css/color.css" />
+</head>
+
+<body itemscope>
+	<div class="theme-layout">
+		<div class="header-container">
+			<!-- <div class="registration">
+				<div class="container">
+					<span class="close-btn"><img src="images/cross.png" alt="" /></span>
+					<div class="registration-form">
+						<h3>Weekendy dla par <span>Luxury Rooms</span></h3>
+						<p>Quis autem velum lure reprehe nderit. Lorem ipsum dolor sitnulla or narjusto.</p>
+						<form>
+							<div class="row">
+								<div class="col-md-8 column">
+									<div class="input-fields">
+										<div class="row">
+											<div class="col-md-6"><input type="text" name="firstname"
+													placeholder="First Name *" /></div>
+											<div class="col-md-6"><input type="email" name="email"
+													placeholder="your@email.com *" /></div>
+											<div class="col-md-6"><input type="text" name="lastname"
+													placeholder="Last Name *" /></div>
+											<div class="col-md-6"><input type="password" name="psw"
+													placeholder="Password *" /></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 column">
+									<p>By creating an account, you agree to our <a href="#" title="">Terms &
+											Conditions.</a></p>
+									<button class="book-now">Create Account</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="login-form">
+						<h3>Sign In <span>Now</span></h3>
+						<p>Quis autem velum lure reprehe nderit. Lorem ipsum dolor sitnulla or narjusto.</p>
+						<form>
+							<div class="row">
+								<div class="col-md-8 column">
+									<div class="input-fields">
+										<div class="row">
+											<div class="col-md-6"><input type="email" name="email"
+													placeholder="your@email.com *" /></div>
+											<div class="col-md-6"><input type="password" name="psw"
+													placeholder="Password *" /></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 column">
+									<button class="book-now">Sign In</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>Registration -->
+
+			<div class="topbar">
+				<div class="weather-wrapper">
+					<div id="weather"></div>
+					<span class="address">Wybierając nasz portal, masz pewność najwyższych standardów. Wszystkie
+						akcesoria i zabawki, które mają kontakt ze skórą są fabrycznie nowe, a każdy apartament jest
+						dezynfekowany przed Twoim przybyciem, aby zapobiec rozprzestrzenianiu koronawirusa. </span>
+
+				</div>
+				<span class="address"><i class="fa fa-map-marker"></i>Usługa dostępna w Katowicach, Krakowie, Warszawie
+					i Wrocławiu. </span>
+				<div class="registration-buttons d-none">
+					<a id="register-btn" href="#" title="">Register</a>
+					<a id="login-btn" href="#" title="">Login</a>
+				</div>
+			</div><!-- Topbar -->
+
+			<header>
+				<div class="container">
+					<div class="logo-sec">
+						<a href="#"><img src="images/logo.png" alt="" /></a>
+					</div><!-- logo -->
+					<nav>
+						<ul>
+							<li class="menu-item-has-children"><a href="index.html" title="">Strona główna</a>
+								<!-- <ul>
+									<li class="menu-item-has-children"><a href="#" title="">Header Styles</a>
+										<ul class="double">
+											<li><a href="index.html" title="">Simple Header</a></li>
+											<li><a href="sticky-header.html" title="">Sticky Header</a></li>
+											<li><a href="transparent-header.html" title="">Transparent Header</a></li>
+											<li><a href="transparent-sticky-header.html" title="">Transparent Sticky Header</a></li>
+											<li><a href="dark-header.html" title="">Dark Header</a></li>
+											<li><a href="dark-transparent-header.html" title="">Dark Transparent Header</a></li>
+											<li><a href="center-logo.html" title="">Center Logo</a></li>
+											<li><a href="fancy-logo.html" title="">Fancy Logo</a></li>
+											<li><a href="center-fancy-logo.html" title="">Center Fancy Logo</a></li>
+											<li><a href="dark-fancy-logo.html" title="">Dark Fancy Logo</a></li>
+											<li><a href="transparent-fancy-logo.html" title="">Transparent Fancy Logo</a></li>
+											<li><a href="creative-header.html" title="">Creative Header</a></li>
+											<li><a href="dark-creative-header.html" title="">Dark Creative Header</a></li>
+											<li><a href="dark-transparent-fancy-logo.html" title="">Dark Transparent Fancy Logo</a></li>										
+										</ul>
+									</li>
+									<li><a href="index.html" title="">Hotel or Resort Demo1</a></li>
+									<li><a href="index2.html" title="">Hotel or Resort Demo2</a></li>
+									<li><a href="index3.html" title="">Travel Demo</a></li>
+									<li class="menu-item-has-children"><a href="#" title="">Featured Area Styles</a>
+										<ul>
+											<li><a href="index3.html" title="">Revolution Slider</a></li>
+											<li><a href="index.html" title="">Fancy Featured Area</a></li>
+											<li><a href="index2.html" title="">Search and Booking Form</a></li>
+											<li><a href="transparent-header.html" title="">Video Slider</a></li>
+										</ul>
+									</li>
+
+								</ul> -->
+							</li>
+								<!-- <ul>
+									<li><a href="gallery.html" title="">Gallery Style 1</a></li>
+									<li><a href="gallery2.html" title="">Gallery Style 2</a></li>
+									<li><a href="gallery3.html" title="">Gallery Style 3</a></li>
+									<li><a href="gallery4.html" title="">Gallery Style 4</a></li>
+								</ul> -->
+							</li>
+							<li class="menu-item-has-children"><a href="faqs.html" title="">Higiena i Bezpieczeństwo</a>
+								<!-- <ul>
+									<li class="menu-item-has-children"><a href="blog-grid.html" title="">Blog Pages</a>
+										<ul>
+											<li><a href="blog-grid.html" title="">Blog Grid View</a></li>
+											<li><a href="blog-list.html" title="">Blog List View</a></li>
+											<li><a href="blog-detail.html" title="">Blog Detail</a></li>
+										</ul>
+									</li>
+									<li><a href="services.html" title="">Services</a></li>
+									<li><a href="service-detail.html" title="">Service Detail</a></li>
+									<li><a href="dinnings.html" title="">Dinnings</a></li>
+									<li><a href="faqs.html" title="">FAQ'S</a></li>
+									<li><a href="luxury-tours.html" title="">Luxury Tours</a></li>
+									<li><a href="widgets.html" title="">Widgets</a></li>
+									<li><a href="404.html" title="">404 Error Page</a></li>
+								</ul> -->
+							</li>
+							<li class="menu-item-has-children"><a href="about2.html" title="">O nas</a>
+								<!-- <ul>
+									<li><a href="room-packages-grid.html" title="">Packages Grid View</a></li>
+									<li><a href="rooms-packages.html" title="">Packages List View</a></li>
+									<li><a href="packages-detail.html" title="">Packages Detail Page</a></li>
+									<li><a href="all-flights.html" title="">All Flights</a></li>
+									<li><a href="flight-packages-detail.html" title="">Flight Package Detail</a></li>
+									<li><a href="booking-form.html" title="">Booking Form</a></li>
+								</ul> -->
+							</li>
+					
+								<!-- <ul>
+									<li><a href="about2.html" title="">About Page Style 1</a></li>
+									<li><a href="about2.html" title="">About Page Style 2</a></li>
+								</ul> -->
+							</li>
+
+							<li><a href="contact.html" title="">Kontakt</a></li>
+							<li><a href="collab.html" title="">Współpraca</a></li>
+
+						</ul>
+					</nav><!-- nav -->
+
+					<span class="responsive-btn"><a href="#" title=""><i class="fa fa-align-center"></i></a></span>
+				</div>
+			</header><!-- Header -->
+
+			<div class="responsive-menu">
+				<ul>
+					<li class="menu-item-has-children"><a href="index.html" title="">Strona główna</a>
+						<!-- <ul>
+							<li class="menu-item-has-children"><a href="#" title="">Header Styles</a>
+								<ul class="double">
+									<li><a href="index.html" title="">Simple Header</a></li>
+									<li><a href="sticky-header.html" title="">Sticky Header</a></li>
+									<li><a href="transparent-header.html" title="">Transparent Header</a></li>
+									<li><a href="transparent-sticky-header.html" title="">Transparent Sticky Header</a></li>
+									<li><a href="dark-header.html" title="">Dark Header</a></li>
+									<li><a href="dark-transparent-header.html" title="">Dark Transparent Header</a></li>
+									<li><a href="center-logo.html" title="">Center Logo</a></li>
+									<li><a href="fancy-logo.html" title="">Fancy Logo</a></li>
+									<li><a href="center-fancy-logo.html" title="">Center Fancy Logo</a></li>
+									<li><a href="dark-fancy-logo.html" title="">Dark Fancy Logo</a></li>
+									<li><a href="transparent-fancy-logo.html" title="">Transparent Fancy Logo</a></li>
+									<li><a href="creative-header.html" title="">Creative Header</a></li>
+									<li><a href="dark-creative-header.html" title="">Dark Creative Header</a></li>
+									<li><a href="dark-transparent-fancy-logo.html" title="">Dark Transparent Fancy Logo</a></li>										
+								</ul>
+							</li>
+							<li><a href="index.html" title="">Hotel or Resort Demo1</a></li>
+							<li><a href="index2.html" title="">Hotel or Resort Demo2</a></li>
+							<li><a href="index3.html" title="">Travel Demo</a></li>
+							<li class="menu-item-has-children"><a href="#" title="">Featured Area Styles</a>
+								<ul>
+									<li><a href="index3.html" title="">Revolution Slider</a></li>
+									<li><a href="index.html" title="">Fancy Featured Area</a></li>
+									<li><a href="index2.html" title="">Search and Booking Form</a></li>
+									<li><a href="transparent-header.html" title="">Video Slider</a></li>
+								</ul>
+							</li>
+
+						</ul> -->
+					</li>
+						<!-- <ul>
+							<li><a href="gallery.html" title="">Gallery Style 1</a></li>
+							<li><a href="gallery2.html" title="">Gallery Style 2</a></li>
+							<li><a href="gallery3.html" title="">Gallery Style 3</a></li>
+							<li><a href="gallery4.html" title="">Gallery Style 4</a></li>
+						</ul> -->
+					</li>
+					<li class="menu-item-has-children"><a href="faqs.html" title="">Higiena i Bezpieczeństwo</a>
+						<!-- <ul>
+							<li class="menu-item-has-children"><a href="blog-grid.html" title="">Blog Pages</a>
+								<ul>
+									<li><a href="blog-grid.html" title="">Blog Grid View</a></li>
+									<li><a href="blog-list.html" title="">Blog List View</a></li>
+									<li><a href="blog-detail.html" title="">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="services.html" title="">Services</a></li>
+							<li><a href="service-detail.html" title="">Service Detail</a></li>
+							<li><a href="dinnings.html" title="">Dinnings</a></li>
+							<li><a href="faqs.html" title="">FAQ'S</a></li>
+							<li><a href="luxury-tours.html" title="">Luxury Tours</a></li>
+							<li><a href="widgets.html" title="">Widgets</a></li>
+							<li><a href="404.html" title="">404 Error Page</a></li>
+						</ul> -->
+					</li>
+					<li class="menu-item-has-children"><a href="about2.html" title="">O nas</a>
+						<!-- <ul>
+							<li><a href="room-packages-grid.html" title="">Packages Grid View</a></li>
+							<li><a href="rooms-packages.html" title="">Packages List View</a></li>
+							<li><a href="packages-detail.html" title="">Packages Detail Page</a></li>
+							<li><a href="all-flights.html" title="">All Flights</a></li>
+							<li><a href="flight-packages-detail.html" title="">Flight Package Detail</a></li>
+							<li><a href="booking-form.html" title="">Booking Form</a></li>
+						</ul> -->
+					</li>
+			
+						<!-- <ul>
+							<li><a href="about2.html" title="">About Page Style 1</a></li>
+							<li><a href="about2.html" title="">About Page Style 2</a></li>
+						</ul> -->
+					</li>
+
+					<li><a href="contact.html" title="">Kontakt</a></li>
+					<li><a href="collab.html" title="">Współpraca</a></li>
+
+				</ul>
+			</div><!-- Responsive Menu -->
+		</div><!-- Header Container -->
+
+
+
+		<section>
+			<div class="block no-padding">
+				<div class="row">
+					<div class="col-md-12 column">
+						<div class="rooms-list">
+							<ul>
+								<li>
+									<div class="room">
+										<img src="images/Gothic-Bedroom.jpg" alt="" />
+										<div class="room-name">
+											<h4>Czarna <span>Msza</span></h4>
+										</div>
+										<div class="room-detail">
+											<div class="room-inner">
+												<h3>Czarna Msza</h3>
+												<p>Oboje wyrośliście już z bycia ubranymi na czarno nastolatkami? Czas
+													wrócić na jedną noc do tych czasów.</p>
+												<strong>790 PLN <i>- W trakcie tygodnia</i></strong>
+												<strong>1190 PLN <i>- Piątek i niedziela</i></strong>
+
+												<div class="room-features">
+													<span><i class="fa fa-calendar"></i></span>
+													<span><i class="fa fa-wifi"></i></span>
+													<span><i class="fa fa-clock-o"></i></span>
+													<span><i class="fa fa-laptop"></i></span>
+													<span><i class="fa fa-umbrella"></i></span>
+												</div>
+												<div class="view-more">
+													<a title="">Chwilowo niedostępne <i
+															class="fa fa-long-arrow-right"></i></a>
+												</div>
+											</div>
+										</div><!-- Room Detail -->
+									</div><!-- Room -->
+								</li>
+								<li>
+									<div class="room">
+										<img src="images/c5756fcbff09dc06ffd89ac9223d7323--dominatrix-mistress.jpg"
+											alt="" />
+										<div class="room-name">
+											<h4>Twoja <span>Pani</span></h4>
+										</div>
+										<div class="room-detail">
+											<div class="room-inner">
+												<h3>Twoja Pani</h3>
+												<p>Scenariusz stworzony specjalnie dla Pań, które kochają władzę i
+													mężczyzn, którzy im ulegają.</p>
+												<strong>890 PLN <i>- W trakcie tygodnia</i></strong>
+												<strong>1290 PLN <i>- Piątek i niedziela</i></strong>
+												<div class="room-features">
+													<span><i class="fa fa-calendar"></i></span>
+													<span><i class="fa fa-wifi"></i></span>
+													<span><i class="fa fa-clock-o"></i></span>
+													<span><i class="fa fa-laptop"></i></span>
+													<span><i class="fa fa-umbrella"></i></span>
+												</div>
+												<div class="view-more">
+													<a href="packages-detail1.html" title="">więcej <i
+															class="fa fa-long-arrow-right"></i></a>
+												</div>
+											</div>
+										</div><!-- Room Detail -->
+									</div>
+								</li>
+								<li class="start">
+									<div class="room">
+										<img src="images/sensual_bdsm_p-1772.jpg" alt="" />
+										<div class="room-name">
+											<h4>Twój <span>Pan</span></h4>
+										</div>
+										<div class="room-detail">
+											<div class="room-inner">
+												<h3>Twój Pan</h3>
+												<p>Propozycja randki dla Dominujących Panów i ich towarzyszek.</p>
+												<strong>890 PLN <i>- W trakcie tygodnia</i></strong>
+												<strong>1290 PLN <i>- Piątek i niedziela</i></strong>
+												<div class="room-features">
+													<span><i class="fa fa-calendar"></i></span>
+													<span><i class="fa fa-wifi"></i></span>
+													<span><i class="fa fa-clock-o"></i></span>
+													<span><i class="fa fa-laptop"></i></span>
+													<span><i class="fa fa-umbrella"></i></span>
+												</div>
+												<div class="view-more">
+													<a href="packages-detail1.html" title="">więcej <i
+															class="fa fa-long-arrow-right"></i></a>
+												</div>
+											</div>
+										</div><!-- Room Detail -->
+									</div>
+								</li>
+								<li>
+									<div class="room">
+										<img src="images/b38207fe84ad1342369153d18126b674 (1).jpg" alt="" />
+										<div class="room-name">
+											<h4>Romans </h4>
+										</div>
+										<div class="room-detail">
+											<div class="room-inner">
+												<h3>Romans</h3>
+												<p>Idealna randka dla Par, które chcą przywrócić swojemu związkowi dawny
+													blask i spędzić kilka chwil ciesząc się tylko sobą.</p>
+												<strong>790 PLN <i>- W trakcie tygodnia</i></strong>
+												<strong>1090 PLN <i>- Piątek i niedziela</i></strong>
+												<div class="room-features">
+													<span><i class="fa fa-calendar"></i></span>
+													<span><i class="fa fa-wifi"></i></span>
+													<span><i class="fa fa-clock-o"></i></span>
+													<span><i class="fa fa-laptop"></i></span>
+													<span><i class="fa fa-umbrella"></i></span>
+												</div>
+												<div class="view-more">
+													<a title="">Chwilowo niedostępne <i
+															class="fa fa-long-arrow-right"></i></a>
+												</div>
+											</div>
+										</div><!-- Room Detail -->
+									</div>
+								</li>
+								<li>
+									<div class="room">
+										<img src="images/o-HELEN-FLANAGAN-570.jpg" alt="" />
+										<div class="room-name">
+											<h4>Powrót do <span>Szkoły</span></h4>
+										</div>
+										<div class="room-detail">
+											<div class="room-inner">
+												<h3>Powrót do szkoły</h3>
+												<p>Tęsknicie za beztroskimi czasami szkoły? Dziś powrót do dzieciństwa
+													jest możliwy...</p>
+												<strong>990 PLN <i>- W trakcie tygodnia</i></strong>
+												<strong>1390 PLN <i>- Piątek i niedziela</i></strong>
+												<div class="room-features">
+													<span><i class="fa fa-calendar"></i></span>
+													<span><i class="fa fa-wifi"></i></span>
+													<span><i class="fa fa-clock-o"></i></span>
+													<span><i class="fa fa-laptop"></i></span>
+													<span><i class="fa fa-umbrella"></i></span>
+												</div>
+												<div class="view-more">
+													<a title="">Chwilowo niedostępne <i
+															class="fa fa-long-arrow-right"></i></a> </div>
+											</div>
+										</div><!-- Room Detail -->
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- Rooms Section -->
+
+
+		<section>
+			<div class="block remove-gap gray-layer">
+				<div class="parallax" data-velocity="-.1"
+					style="background: rgba(0, 0, 0, 0) url(http://placehold.it/1366x768) no-repeat 50% 0;"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 column">
+							<div class="big-tabs">
+								<ul class="nav nav-tabs">
+									<li class="active">
+										<a href="#about-hotel" data-toggle="tab">
+											<div class="tab-name">
+												<i class="fa fa-building"></i>
+												<span>O nas<strong>Dlaczego warto wybrać nas?</strong></span>
+											</div>
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane fade in active" id="about-hotel">
+										<div class="tab-data">
+											<strong>Zapraszamy</strong>
+											<h4>Po niezapomniane przeżycia ze swoją drugą połówką</h4>
+											<p>Liczą się dla nas trzy rzeczy: Bezpieczeństwo, Prywatność i Ekscytacja.
+												Rozumiemy, że każdy ma prawo do wyjątkowej randki z dala od ciekawskich
+												oczu. Chcemy zaproponować Wam scenariusze i aranżacje, które rozgrzeją
+												nawet wieloletni związek. Pragniemy pokazać, jak niezwykła i
+												podniecająca może być sfera ludzkiej seksualnośći. Rozumiemy również
+												wyzwania, jakie stawia przed nami pandemia koronawirusa. Twoje
+												bezpieczeństwo stanowi dla nas najwyższy priorytet. Przystosowaliśmy się
+												do nowych warunków i wiemy, jak zapobiec rozprzestrzenianiu się choroby.
+											</p>
+											<ul>
+												<li>
+													<p>Miasta</p>
+													<span>4</span>
+												</li>
+												<li>
+													<p>Apartamenty</p>
+													<span>9</span>
+												</li>
+												<li>
+													<p>Zaspokojonych par</p>
+													<span>500+</span>
+												</li>
+											</ul><!-- ul -->
+										</div><!-- tabs-data -->
+									</div>
+									<!-- <div role="tabpanel" class="tab-pane fade" id="find-hotel">
+										<div class="tab-form">
+											<div class="tab-from-title">
+												<span>Any Time Worldwide</span>
+												<h4>Find Your Ideal Hotel</h4>
+											</div>
+											<form action="room-packages-grid.html">
+												<div class="row">
+													<div class="col-md-3">
+														<label>Check In</label>
+														<div class="field">	
+															<input class="popupDatepicker" type="text" placeholder="Select Date">
+															<img class="field-icon" src="images/calendar.png" alt="" />
+														</div>
+													</div>
+													<div class="col-md-3">
+														<label>Check Out</label>
+														<div class="field">	
+															<input class="popupDatepicker" type="text" placeholder="Select Date">
+															<img class="field-icon" src="images/calendar.png" alt="" />
+														</div>
+													</div>
+													<div class="col-md-2">
+														<label>Adults</label>
+														<div class="field">
+															<input class="inc-dec" value="00" type="text" placeholder="">
+														</div>
+													</div>
+													<div class="col-md-2">
+														<label>Kids</label>
+														<div class="field">	
+															<input class="inc-dec" value="00" type="text" placeholder="">
+														</div>
+													</div>
+													<div class="col-md-2">
+														<label>Rooms</label>
+														<div class="field">	
+															<input class="inc-dec" value="00" type="text" placeholder="">
+														</div>
+													</div>
+													<div class="col-md-12">
+														<button class="book-now" type="submit">Search Now</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> Tabs Section -->
+
+
+									<section>
+										<div class="block gray darkblue-layer half-parallax">
+											<div class="parallax" data-velocity="-.1"
+												style="background: rgba(0, 0, 0, 0)  no-repeat 50% 0;"></div>
+											<div class="">
+												<div class="row">
+													<div class="col-md-12 column">
+														<div class="service-area">
+															<div class="row">
+																<div class="col-md-4">
+																	<div class="service-title">
+																		<p>Rozluźnij się i obejrzyj nasze</p>
+																		<h3>Niegrzeczne </h3>
+																		<span>dodatki</span>
+																	</div><!-- Service Title -->
+																</div>
+																<div class="col-md-8">
+																	<div class="service-carousel">
+																		<div class="service-box">
+																			<img src="images/pol_pl_Akcesoria-BDSM-Bondage-2403_2.jpg"
+																				alt="" />
+																			<div class="service-name">
+																				<span><img
+																						src="images/service-icon2.png"
+																						alt="" /></span>
+																				<h5><a href="service-detail.html"
+																						title="">Akcesoria BDSM</a></h5>
+																			</div>
+																		</div><!-- Service Box -->
+																		<div class="service-box">
+																			<img src="images/Kieliszek-Moet-Chandon-kieliszki-do-szampana-FV.jpeg"
+																				alt="" />
+																			<div class="service-name">
+																				<span><img
+																						src="images/service-icon1.png"
+																						alt="" /></span>
+																				<h5><a href="service-detail.html"
+																						title="">Szampan</a></h5>
+																			</div>
+																		</div><!-- Service Box -->
+																		<div class="service-box">
+																			<img src="images/images.jpeg" alt="" />
+																			<div class="service-name">
+																				<span><img
+																						src="images/service-icon3.png"
+																						alt="" /></span>
+																				<h5><a href="service-detail.html"
+																						title="">Zestaw świec</a></h5>
+																			</div>
+																		</div><!-- Service Box -->
+																	</div><!-- Service Carousel -->
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section><!-- Services Section -->
+									<div class="bottom-footer">
+										<div class="">
+											<div class="contact-bar">
+												<div class="col-md-4">
+													<div class="contact-details">
+														<span><i class="fa fa-map-marker"></i></span>
+														<strong>Adres:</strong>
+														<p>
+															Al. Jerozolimskie 181B</p>
+													</div><!-- contact-details -->
+												</div>
+												<div class="col-md-4">
+													<div class="contact-details dark">
+														Zapraszamy!
+														<br>
+														<br>
+													</div><!-- contact-details -->
+												</div>
+												<div class="col-md-4">
+													<div class="contact-details">
+														<span><i class="fa fa-envelope-square"></i></span>
+														<strong>Email:</strong>
+														<p>info@love-concierge.com</p>
+													</div><!-- contact-details -->
+												</div>
+											</div><!-- contact-data -->
+											<p>&copy; 2020 <a href="#">Love Concierge</a></p>
+										</div><!-- container -->
+									</div><!-- after-footer -->
+
+
+									<div class="booking-popup">
+										<div class="popup-container">
+											<div class="popup-inner">
+												<span class="close-btn"><img src="images/cross.png" alt="" /></span>
+												<div class="popup-title">
+													<span>Any Time Worldwide</span>
+													<h4>Book Your Room</h4>
+													<span>Not valid for bookings less than 3 days </span>
+												</div><!-- Popup Title -->
+												<div class="popup-details">
+													<div class="popup-block">
+														<div class="row">
+															<div class="col-md-5 column">
+																<div class="popup-block-title">
+																	<span>Any Time</span>
+																	<h4>Choose Your Date</h4>
+																</div>
+															</div>
+															<div class="col-md-7 column">
+																<form>
+																	<div class="row">
+																		<div class="col-md-6">
+																			<label>Check In</label>
+																			<div class="field">
+																				<input class="popupDatepicker"
+																					type="text" placeholder="">
+																				<img class="field-icon"
+																					src="images/calendar.png" alt="" />
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<label>Check Out</label>
+																			<div class="field">
+																				<input class="popupDatepicker"
+																					type="text" placeholder="">
+																				<img class="field-icon"
+																					src="images/calendar.png" alt="" />
+																			</div>
+																		</div>
+																		<div class="col-md-4">
+																			<label>Adults</label>
+																			<div class="field">
+																				<input class="inc-dec" value="00"
+																					type="text" placeholder="">
+																			</div>
+																		</div>
+																		<div class="col-md-4">
+																			<label>Kids</label>
+																			<div class="field">
+																				<input class="inc-dec" value="00"
+																					type="text" placeholder="">
+																			</div>
+																		</div>
+																		<div class="col-md-4">
+																			<label>Rooms</label>
+																			<div class="field">
+																				<input class="inc-dec" value="00"
+																					type="text" placeholder="">
+																			</div>
+																		</div>
+																	</div>
+																</form><!-- Tab Form -->
+															</div>
+														</div>
+													</div><!-- Popup Block -->
+													<div class="popup-block">
+														<div class="row">
+															<div class="col-md-5 column">
+																<div class="popup-block-title">
+																	<span>Awesome Rooms</span>
+																	<h4>Your Room Summary</h4>
+																</div>
+															</div>
+															<div class="col-md-7">
+																<div class="popup-rooms">
+																	<div class="popup-room">
+																		<div class="popup-room-img">
+																			<img src="images/resource/popup-room.jpg"
+																				alt="" />
+																		</div>
+																		<div class="popup-room-detail">
+																			<i>Awesome Features Room</i>
+																			<h5>Super Star Luxury Hotle</h5>
+																			<div class="room-price-from">
+																				<strong>Start From </strong>
+																				<span>$289</span>
+																				<strong>Per Person</strong>
+																			</div>
+																			<a class="book-now" href="#" title="">SEE
+																				DETAILS</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div><!-- Popup Block -->
+													<div class="popup-block">
+														<div class="row">
+															<div class="col-md-5 column">
+																<div class="popup-block-title">
+																	<span>We Stand By</span>
+																	<h4>Reservation Details</h4>
+																</div>
+															</div>
+															<div class="col-md-7 column">
+																<form>
+																	<div class="row">
+																		<div class="col-md-6">
+																			<label>First Name</label>
+																			<div class="field">
+																				<input type="text" placeholder="" />
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<label>Last Name</label>
+																			<div class="field">
+																				<input type="text" placeholder="" />
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<label>Email</label>
+																			<div class="field">
+																				<input type="email" placeholder="" />
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<label>Phone</label>
+																			<div class="field">
+																				<input type="email" placeholder="" />
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<label>City</label>
+																			<div class="field">
+																				<input type="email" placeholder="" />
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<label>Address</label>
+																			<div class="field">
+																				<input type="email" placeholder="" />
+																			</div>
+																		</div>
+																		<div class="col-md-12">
+																			<label>Requirements</label>
+																			<div class="field textarea">
+																				<textarea></textarea>
+																			</div>
+																		</div>
+																		<div class="col-md-12">
+																			<button class="book-now" type="submit">BOOK
+																				NOW</button>
+																		</div>
+																	</div>
+																</form><!-- Tab Form -->
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- Booking Popup -->
+
+									<div class="popup">
+										<div class="popup-center">
+											<div class="simple-popup-inner">
+												<div class="alert alert-success">
+													<span class="close-btn"><i class="fa fa-times"></i></span>
+													<strong>WellDone!</strong>
+													<p>Your message has been submitted to us successfully, We will get
+														back to you shortly.</p>
+												</div>
+											</div>
+										</div>
+									</div><!-- Popup -->
+								</div>
+
+								<script src="js/jquery.min.js" type="text/javascript"></script>
+								<script src="js/bootstrap.min.js" type="text/javascript"></script>
+								<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+								<script src="js/jquery.poptrox.min.js" type="text/javascript"></script>
+								<script src="js/enscroll-0.5.2.min.js" type="text/javascript"></script>
+								<script src="js/jquery.scrolly.js" type="text/javascript"></script>
+								<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+								<script src="js/isotope-initialize.js" type="text/javascript"></script>
+								<script src="js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+								<script src="js/userincr.js" type="text/javascript"></script>
+								<!-- <script src="js/jquery.simpleWeather.min.js"></script> -->
+								<script src="js/script.js" type="text/javascript"></script>
+								<script type="text/javascript">
+
+									$(window).load(function () {
+
+										/*================== SERVICES CAROUSEL ======================*/
+										$('.service-carousel').owlCarousel({
+											autoplay: true,
+											autoplayTimeout: 30000,
+											smartSpeed: 2000,
+											loop: true,
+											dots: false,
+											nav: true,
+											margin: 10,
+											items: 3,
+											autoHeight: true,
+											responsive: {
+												0: { items: 1 },
+												480: { items: 2 },
+												767: { items: 3 },
+												980: { items: 3 }
+											}
+										});
+
+
+										/*================== CLIENTS CAROUSEL ======================*/
+										$('.clients-carousel').owlCarousel({
+											autoplay: true,
+											autoplayTimeout: 30000,
+											smartSpeed: 2000,
+											loop: true,
+											dots: false,
+											nav: true,
+											margin: 10,
+											items: 5,
+											autoHeight: true,
+											responsive: {
+												0: { items: 1 },
+												480: { items: 3 },
+												767: { items: 4 },
+												980: { items: 5 }
+											}
+										});
+									});
+
+								</script>
+
+</body>
+
+</html>
