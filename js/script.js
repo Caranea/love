@@ -2,19 +2,19 @@ jQuery(document).ready(function() {
         "use strict";
 
         /*=================== Simple Weather Plugin ===================*/
-        $.simpleWeather({
-            location: 'London, United Kingdom',
-            woeid: '',
-            unit: 'c',
-            success: function(weather) {
-             var html = $("#weather").after('<img  src="images/weather/'+weather.code+'.png"><div class="weather-detail"><div class="weather-city">'+weather.city+', '+weather.region+'</div><span class="temprature"><i class="icon-'+weather.code+'"></i>'+weather.temp+'&deg; <i>'+weather.units.temp+'<i></span></div>');
+        // $.simpleWeather({
+        //     location: 'London, United Kingdom',
+        //     woeid: '',
+        //     unit: 'c',
+        //     success: function(weather) {
+        //      var html = $("#weather").after('<img  src="images/weather/'+weather.code+'.png"><div class="weather-detail"><div class="weather-city">'+weather.city+', '+weather.region+'</div><span class="temprature"><i class="icon-'+weather.code+'"></i>'+weather.temp+'&deg; <i>'+weather.units.temp+'<i></span></div>');
 
-            $("#weather").html(html);
-            },
-            error: function(error) {
-            $("#weather").html('<p>'+error+'</p>');
-            }
-        });
+        //     $("#weather").html(html);
+        //     },
+        //     error: function(error) {
+        //     $("#weather").html('<p>'+error+'</p>');
+        //     }
+        // });
 
 
         /*=================== Gallery Tabs ===================*/
