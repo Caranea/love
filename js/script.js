@@ -35,42 +35,42 @@ jQuery(document).ready(function() {
 
 
 
-        /*=================== Topbar Registration and Signup Buttons ===================*/
-        var registration_height = $(".registration").innerHeight();
-        $(".registration").css({
-            "margin-top": -registration_height
-        });
+        // /*=================== Topbar Registration and Signup Buttons ===================*/
+        // var registration_height = $(".registration").innerHeight();
+        // $(".registration").css({
+        //     "margin-top": -registration_height
+        // });
 
-        $(".registration-buttons > a").on("click", function(e) {
-            var target = $(e.target);
-            $(".registration-buttons > a").removeClass("active");
-            $(this).addClass("active");
+        // $(".registration-buttons > a").on("click", function(e) {
+        //     var target = $(e.target);
+        //     $(".registration-buttons > a").removeClass("active");
+        //     $(this).addClass("active");
 
-            $(".registration .container > div").slideUp();
-            if (target.is('#login-btn')) {
-                $(".registration .login-form").slideDown();
-            }
-            if (target.is('#register-btn')) {
-                $(".registration .registration-form").slideDown();
-            }
+        //     $(".registration .container > div").slideUp();
+        //     if (target.is('#login-btn')) {
+        //         $(".registration .login-form").slideDown();
+        //     }
+        //     if (target.is('#register-btn')) {
+        //         $(".registration .registration-form").slideDown();
+        //     }
 
-            $(".registration").css({
-                "margin-top": 0
-            });
-            return false;
-        });
+        //     $(".registration").css({
+        //         "margin-top": 0
+        //     });
+        //     return false;
+        // });
 
-        $("html,.close-btn").on("click", function() {
-            $(".registration-buttons > a").removeClass("active");
-            var registration_height2 = $(".registration").innerHeight();
-            $(".registration").css({
-                "margin-top": -registration_height2
-            });
-        });
+        // $("html,.close-btn").on("click", function() {
+        //     $(".registration-buttons > a").removeClass("active");
+        //     var registration_height2 = $(".registration").innerHeight();
+        //     $(".registration").css({
+        //         "margin-top": -registration_height2
+        //     });
+        // });
 
-        $(".topbar, .registration").on("click", function(e) {
-            e.stopPropagation();
-        });
+        // $(".topbar, .registration").on("click", function(e) {
+        //     e.stopPropagation();
+        // });
 
 
 
